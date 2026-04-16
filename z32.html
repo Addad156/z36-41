@@ -1,0 +1,20 @@
+<script>
+function Router(aktywny_c, warstwa_c, ip_c) {
+    this.aktywny = aktywny_c;
+    this.warstwa = warstwa_c;
+    this.ip = ip_c;
+}
+
+Router.prototype.wypisz = function () {
+    alert(this.aktywny + " " + this.warstwa + " " + this.ip);
+};
+
+const router1 = new Router("aktywny", "3 OSI", "posiada własne IP");
+const router2 = new Router("aktywny", "4 OSI", "posiada własne IP");
+
+router1.wypisz();
+router2.wypisz();
+
+document.write("pierwszy router<br>");
+document.write(router1.aktywny + " " + router1.warstwa + " " + router1.ip);
+</script>

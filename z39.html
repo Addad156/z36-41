@@ -1,0 +1,24 @@
+<!DOCTYPE html> 
+<html lang="pl"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <title>wojciechowskiZ38</title> 
+</head 
+  <body>
+		<font color="green" size="6">Menu<br></font>
+		<font color="red" size="6">1 - Czerwony<br></font>
+		<font color="blue" size="6">2 - Niebieski<br></font>
+		<input type="text" id="zmienna" name="user_imie"><br>
+        <input type="button" name="adam wojciechowski" value="Sprawdź" onclick="fun_woj()" /> 
+		<script> 
+		function fun_woj() { 
+			var x_woj = document.getElementById("zmienna").value
+			if(x_woj == 1 || x_woj.toLowerCase() == "czerwony") { 
+				document.write('<h1 style="color:red;size:7;">wczytałeś kolor czerwony</h1><br />'); } 
+			else if(x_woj == 2 || x_woj.toLowerCase() == "niebieski") { 
+				document.write('<h6 style="color:blue;size:7;">wczytałeś kolor niebieski</h6><br />'); 
+			} 
+		} 
+		</script> 
+   </body> 
+ </html> 

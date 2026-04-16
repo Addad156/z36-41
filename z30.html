@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<br>Programowanie obiektowe. <br>
+Obiekt to router <br>
+Pola: <br>
+aktywny <br>
+warstwa <br>
+ip <br>
+metoda: wyswietl <br>
+
+<script>
+    const router = {
+        aktywny: 'aktywny',
+        warstwa: '3osi',
+        ip: 'posiada wlasne ip',
+        wyswietl: function (){
+            document.write(this.aktywny + ' ' + this.warstwa + ' ' + this.ip);
+        }
+    }
+    router.wyswietl();
+</script>
+</body>
+</html>
