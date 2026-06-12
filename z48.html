@@ -1,0 +1,27 @@
+
+<!DOCTYPE html> 
+<html> 
+	<head>
+		<title>Sprawdzenie danych wojciechowski </title>
+		<meta charset="utf-8">
+	</head>
+	<body>  
+		<div style="color:red;font-size:50px;"> 
+		<script language="JavaScript"> 
+			do 
+			{ 
+				var liczba1=prompt("wysokość=",""); 
+				var h_woj=parseFloat(liczba1); 
+			} while ( h_woj<=0); 
+			
+			do 
+			{ 
+				var liczba1=prompt("podstawę=",""); 
+				var a_woj=parseFloat(liczba1); 
+			} while(!( a_woj>0)); 
+			var Pole=a_woj*h_woj/2; 
+			document.write("Pole="+Pole.toFixed(2)+" cm^2"+"<br>");  
+		</script> 
+		</div> 
+	</body> 
+</html> 

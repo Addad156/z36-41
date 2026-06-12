@@ -1,0 +1,22 @@
+
+<!DOCTYPE html> 
+<html> 
+	<head>
+		<meta charset="utf-8">
+		<title>Przykład użycia pętli</title>
+	</head>
+	<body> 
+		<script language="JavaScript"> 
+			var ile_razy_woj=parseFloat(prompt('Ile razy powtórzyć?',''));
+			var inicjaly_woj=prompt('Podaj inicjaly:','')
+			for (var i_w=1; i_w<=ile_razy_woj;i_w++) 
+			{ 
+				for (var k_w=1; k_w<=i_w;k_w++) 
+				{ 
+					document.write("&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp");   
+				} 
+			document.write(i_w+"_"+inicjaly_woj+"_"+i_w+"<br>"); 
+			}
+		</script> 
+	</body> 
+</html> 

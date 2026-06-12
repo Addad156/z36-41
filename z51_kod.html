@@ -1,0 +1,40 @@
+
+
+<html>
+	<body>
+		<textarea rows=15 cols=100>
+<!DOCTYPE html> 
+<html> 
+<body> 
+<meta charset="utf-8"> 
+<div style="color:red;font-size:50px;"> 
+<script language="JavaScript"> 
+			do
+			{
+				var n_woj=parseFloat(prompt('Podaj n = ',''));
+			} while(n_woj<0)
+			
+			document.write("n = "+n_woj+"<br>");
+			var silnia_woj=1;
+			
+			if(n_woj==0)
+			{
+				silnia_woj=1;
+				document.write(silnia_woj+"! = "+silnia_woj);
+			}
+			else
+			{
+				var wynik_woj=1;
+				for(i=1;i<=n_woj;i++)
+				{
+					wynik_woj=wynik_woj*i;
+				}
+				document.write(n_woj+"! = "+wynik_woj);
+			}
+</script> 
+</div> 
+</body> 
+</html> 
+		</textarea>
+	</body>
+</html>
